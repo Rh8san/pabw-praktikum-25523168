@@ -1,8 +1,15 @@
-header {
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+  gap: var(--space-6);
+}
+
+header,
+.navbar {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-  margin-bottom: var(--space-6);
   padding-bottom: var(--space-4);
   border-bottom: 1px solid var(--color-border);
 }
@@ -13,7 +20,21 @@ nav {
   align-items: center;
 }
 
-main {
+main,
+.content {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  grid-template-areas: "side main";
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.side {
+  grid-area: side;
+}
+
+.main {
+  grid-area: main;
   display: flex;
   flex-direction: column;
   gap: var(--space-6);
@@ -31,7 +52,6 @@ section {
 }
 
 footer {
-  margin-top: var(--space-6);
   padding-top: var(--space-4);
   border-top: 1px solid var(--color-border);
   text-align: center;

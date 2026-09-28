@@ -1,102 +1,121 @@
 <!DOCTYPE html>
-
 <html lang="id">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Racing Game Recommendation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Game Recommendation</title>
 
-     <link rel="stylesheet" href="tokens.css">
-     <link rel="stylesheet" href="base.css">
-     <link rel="stylesheet" href="layout.css">
-     <link rel="stylesheet" href="komponen.css">
-     <link rel="stylesheet" href="tema.css">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="komponen.css">
+    <link rel="stylesheet" href="tema.css">
 </head>
 <body>
-  <header>
-   <h1>Racing Game Recommendation</h1>
-   <nav aria-label="Main navigation">
-       <a href="https://lemansultimate.com/">Le Mans Ultimate</a> |
-       <a href="https://assettocorsa.gg/assetto-corsa-competizione/">Assetto Corsa Competizione</a> |
-       <a href="https://www.iracing.com/">iRacing</a>
-   </nav>
-  </header>
+  <div class="page">
 
-<main>
-    <section id="recommended-sim-racer">
-      <h2>Recommended for Sim Racer</h2>
-      <p>Diperuntukkan untuk yang sudah memiliki pengalaman bermain Sim Racing atau Racing Game dan mengincar gameplay Kompetitif.</p>
-    
-      <table>
-        <caption>Recommended for Sim Racer</caption>
-        <thead>
-          <tr>
-            <th scope="col">Title</th>
-            <th scope="col">How difficult is it</th>
-            <th scope="col">Recommended for …</th>
-            <th scope="col">Is it worth the money and hype?</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Le Mans Ultimate</th>
-            <td>Difficult</td>
-            <td>Sim Racer</td>
-            <td>Yes</td>
-          </tr>
-          <tr>
-            <th scope="row">Assetto Corsa Competizione</th>
-            <td>Difficult</td>
-            <td>Sim Racer</td>
-            <td>Yes</td>
-          </tr>
-          <tr>
-            <th scope="row">iRacing</th>
-            <td>Difficult</td>
-            <td>Sim Racer</td>
-            <td>Yes</td>
-          </tr>
-        </tbody>
-      </table>
+    <header class="navbar">
+      <h1>Racing Game Recommendation</h1>
+      <nav aria-label="Main navigation">
+          <a href="https://lemansultimate.com/">Le Mans Ultimate</a>
+          <a href="https://assettocorsa.gg/assetto-corsa-competizione/">Assetto Corsa Competizione</a>
+          <a href="https://www.iracing.com/">iRacing</a>
+      </nav>
+    </header>
 
-      <figure>
-        <img src="LMU.webp" alt="Thumbnail Le Mans Ultimate dengan 2 mobil LMH dan 1 mobil LMGT3" width="600" height="600">
-        <figcaption>Le Mans Ultimate</figcaption>
-      </figure>
-     </section>
-    
-    <section id="recommended-casual">
-      <h2>Recommended for Casual Player/JFF</h2>
-      <p>Cocok untuk bersenang-senang dengan teman maupun sendiri. Untuk saat ini belum ada, namun saya menambahkan fitur untuk mengisi form rekomendasi game balap yang cocok untuk casual player. 
-         Silakan isi form di bawah ini.</p>
+    <main class="content">
+      
+      <aside class="side">
+        <h2>Navigasi Halaman</h2>
+        <ul>
+          <li><a href="#recommended-sim-racer">Sim Racer</a></li>
+          <li><a href="#recommended-casual">Casual Player</a></li>
+        </ul>
+      </aside>
 
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Recommendation Form</legend>
+      <section class="main">
+        
+        <div id="recommended-sim-racer">
+          <h2>Recommended for Sim Racer</h2>
+          <p>Diperuntukkan untuk yang sudah memiliki pengalaman bermain Sim Racing atau Racing Game dan mengincar gameplay Kompetitif.</p>
+        
+          <table>
+            <caption>Recommended for Sim Racer</caption>
+            <thead>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">How difficult is it</th>
+                <th scope="col">Recommended for …</th>
+                <th scope="col">Is it worth the money and hype?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Le Mans Ultimate</th>
+                <td>Difficult</td>
+                <td>Sim Racer</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <th scope="row">Assetto Corsa Competizione</th>
+                <td>Difficult</td>
+                <td>Sim Racer</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <th scope="row">iRacing</th>
+                <td>Difficult</td>
+                <td>Sim Racer</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
 
-          <label for="game-title">Game Title:</label>
-          <input type="text" id="game-title" name="game-title" required>
+          <div class="gallery">
+            <figure class="card">
+              <img src="LMU.webp" alt="Thumbnail Le Mans Ultimate dengan 2 mobil LMH dan 1 mobil LMGT3" width="600" height="600">
+              <figcaption class="card_footer">
+                <span class="card__content">Le Mans Ultimate</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        
+        <div id="recommended-casual">
+          <h2>Recommended for Casual Player/JFF</h2>
+          <p>Cocok untuk bersenang-senang dengan teman maupun sendiri. Untuk saat ini belum ada, namun saya menambahkan fitur untuk mengisi form rekomendasi game balap yang cocok untuk casual player. Silakan isi form di bawah ini.</p>
 
-          <label for="difficulty">Difficulty Level:</label>
-          <select id="difficulty" name="difficulty" required>
-            <option value="">Select difficulty</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Moderate</option>
-            <option value="hard">Difficult</option>
-          </select>
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Recommendation Form</legend>
 
-          <label for="recommendation">Why do you recommend this game?</label>
-          <textarea id="recommendation" name="recommendation" rows="4" required></textarea>
+              <label for="game-title">Game Title:</label>
+              <input type="text" id="game-title" name="game-title" required>
 
-          <button type="submit">Submit Recommendation</button>
-        </fieldset>
-      </form>
-    </section>
+              <label for="difficulty">Difficulty Level:</label>
+              <select id="difficulty" name="difficulty" required>
+                <option value="">Select difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Moderate</option>
+                <option value="hard">Difficult</option>
+              </select>
 
-  </main>
-  <footer>
-     <p>Rafi Amar Rhosan</p>
-  </footer>
+              <label for="recommendation">Why do you recommend this game?</label>
+              <textarea id="recommendation" name="recommendation" rows="4" required></textarea>
 
+              <button type="submit">Submit Recommendation</button>
+            </fieldset>
+          </form>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+        <p>Rafi Amar Rhosan</p>
+    </footer>
+
+  </div>
 </body>
 </html>

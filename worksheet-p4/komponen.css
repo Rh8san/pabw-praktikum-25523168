@@ -8,7 +8,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -32,11 +31,11 @@ caption {
   text-align: left;
 }
 
-
 img {
   border-radius: var(--radius-md);
+  max-width: 100%;
+  height: auto;
 }
-
 
 form {
   display: flex;
@@ -71,7 +70,6 @@ textarea {
   border-radius: var(--radius-md);
 }
 
-
 input:focus,
 select:focus,
 textarea:focus,
@@ -80,12 +78,10 @@ button:focus {
   outline-offset: 2px;
 }
 
-
 input:invalid,
 textarea:invalid {
   border-color: var(--color-danger);
 }
-
 
 button,
 .btn {
@@ -97,4 +93,45 @@ button,
   border: none;
   border-radius: var(--radius-md);
   cursor: pointer;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--space-4);
+}
+
+.card {
+  display: grid;
+  align-content: start;
+  min-height: 14rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3);
+  gap: var(--space-2);
+}
+
+.card__title {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.highlight {
+  grid-column: span 2;
 }
