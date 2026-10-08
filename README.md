@@ -34,3 +34,6 @@ Dibantu AI pada bagian Form
 
 ### Kriteria Selesai
 Mengubah nilai `--color-primary` (`--lmu-red`) di satu baris pada file `tokens.css` harus otomatis mengubah seluruh warna button, link, title, dan focus line di halaman tanpa mengedit berkas CSS lainnya.
+
+## Pertemuan 8 - Catatan penggunaan AI
+Dibantu AI pada app.js bagian: 20 - 29, 35 - 40, 58 - 60
