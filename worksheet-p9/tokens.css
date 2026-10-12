@@ -1,0 +1,31 @@
+:root {
+  --lmu-red: #E00032;
+  --dark-slate: #0F172A;
+  --light-gray: #F8FAFC;
+  --border-gray: #E2E8F0;
+  
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+
+  --radius-md: 0.5rem;
+  --shadow-1: 0 1px 3px rgba(0, 0, 0, .10);
+
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-xl: 1.5rem;
+  --text-3xl: 2.25rem;
+}
+
+
+:root {
+  --color-bg: var(--light-gray);
+  --color-fg: var(--dark-slate);
+  --color-surface: #FFFFFF;
+  --color-border: var(--border-gray);
+  --color-primary: var(--lmu-red);
+  --color-danger: #B00020;
+  --color-focus: var(--lmu-red);
+}
