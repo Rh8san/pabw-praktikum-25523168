@@ -37,3 +37,7 @@ Mengubah nilai `--color-primary` (`--lmu-red`) di satu baris pada file `tokens.c
 
 ## Pertemuan 8 - Catatan penggunaan AI
 Dibantu AI pada app.js bagian: 20 - 29, 35 - 40, 58 - 60
+
+## Pertemuan 9 - Catatan penggunaan AI
+Dibantu AI dalam mencari galat dan solusinya
+Dibantu AI dalam tata letak Kode

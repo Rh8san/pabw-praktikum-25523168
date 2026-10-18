@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "judul": "Halaman Profil Interaktif",
+    "kategori": "web",
+    "tahun": 2026,
+    "deskripsi": "Website profil pribadi menggunakan JavaScript ES6+ dan manipulasi DOM."
+  },
+  {
+    "id": 2,
+    "judul": "Aplikasi Pengelola Tugas",
+    "kategori": "web",
+    "tahun": 2026,
+    "deskripsi": "Aplikasi To-Do List dengan fitur filter dan penyimpanan lokal."
+  },
+  {
+    "id": 3,
+    "judul": "Katalog Produk Olahraga",
+    "kategori": "desain",
+    "tahun": 2025,
+    "deskripsi": "Desain antarmuka toko online peralatan olahraga modern."
+  }
+]
