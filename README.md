@@ -41,3 +41,7 @@ Dibantu AI pada app.js bagian: 20 - 29, 35 - 40, 58 - 60
 ## Pertemuan 9 - Catatan penggunaan AI
 Dibantu AI dalam mencari galat dan solusinya
 Dibantu AI dalam tata letak Kode
+
+##Pertemuan 11 - Catatan penggunaan AI
+Dibantu pada fixing filter button not working
+Dibantu pada finding the error root

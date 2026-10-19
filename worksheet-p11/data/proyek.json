@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "judul": "Le Mans Ultimate",
+    "kategori": "Sim Racer",
+    "tahun": 2024,
+    "deskripsi": "Game simulator balap resmi FIA WEC dengan fisika mobil endurance yang sangat realistis."
+  },
+  {
+    "id": 2,
+    "judul": "Assetto Corsa Competizione",
+    "kategori": "Sim Racer",
+    "tahun": 2019,
+    "deskripsi": "Simulator balap GT3 dan GT4 terbaik dengan penanganan ban dan cuaca yang kompetitif."
+  },
+  {
+    "id": 3,
+    "judul": "iRacing",
+    "kategori": "Sim Racer",
+    "tahun": 2008,
+    "deskripsi": "Platform balap simulasi online paling kompetitif dengan sistem lisensi dan keselamatan terstruktur."
+  },
+  {
+    "id": 4,
+    "judul": "Forza Horizon 5",
+    "kategori": "Casual Player",
+    "tahun": 2021,
+    "deskripsi": "Game balap open-world yang santai dengan ratusan pilihan mobil dan pemandangan indah."
+  },
+  {
+    "id": 5,
+    "judul": "Need for Speed Unbound",
+    "kategori": "Casual Player",
+    "tahun": 2022,
+    "deskripsi": "Game balap jalanan arcade dengan gaya visual efek anime dan kustomisasi mobil yang luas."
+  }
+]
