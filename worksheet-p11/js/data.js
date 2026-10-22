@@ -1,6 +1,6 @@
 export const profil = {
   nama: "Rafi Amar Rhosan",
-  peran: "Pengembang Web & Mahasiswa SIF",
+  peran: "Pengembang Web & Mahasiswa Informatika UII",
   keahlian: ["HTML", "CSS", "JavaScript", "Git"]
 };
 
